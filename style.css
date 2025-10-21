@@ -160,6 +160,7 @@ section{
 }
 
 .hero-text {
+    margin-top: 50px;
     flex: 1;
 }
 
@@ -390,6 +391,25 @@ section{
     padding: 0.3rem 0.8rem;
     background-color: var(--darker-bg);
     border-radius: 20px;
+}
+
+.lenguajes {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnology h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    align-content: center;
 }
 
 footer {
